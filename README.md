@@ -6,8 +6,8 @@ Web page published to github-pages at: **[CSS Grid Layout Tutorial](https://anab
 
 ## 🖥️ Desktop View
 
-![Desktop Screenshot]()
+![Desktop Screenshot](https://github.com/AnaBoca/scc-midterm-cssgrid/blob/main/images/desktop.png)
 
 ## 📱 Mobile View
 
-![Mobile Screenshot]()
+![Mobile Screenshot](https://github.com/AnaBoca/scc-midterm-cssgrid/blob/main/images/mobile.png)
