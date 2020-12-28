@@ -1,0 +1,182 @@
+/* MOBILE-FIRST STYLESHEET */
+
+/* Important - this stylesheet is used to extend and override bootstrap styles. */
+/* The link to this stylesheet MUST COME AFTER THE LINK TO bootstrap.css */
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+body {
+  background-color: black;
+}
+
+.jumbotron {
+  background-color: #e441ff;
+}
+
+.image-wrapper {
+	display: flex;
+	justify-content: center;
+  align-items: center;
+}
+
+header img {
+  height: 150px;
+}
+
+.figure-1 img {
+  height: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right; auto;
+}
+
+.figure-2 {
+	background-color: white;
+	border: 2px solid black;
+}
+
+h1 {
+	font-size: 3.5rem;
+	-webkit-text-stroke: 2px black;
+	-webkit-text-fill-color: white;
+  text-shadow: 4px 4px 2px black;
+}
+
+.header-h2 {
+  font-size: 1.5rem;
+}
+
+.section {
+  padding: 3rem 0;
+}
+
+.section-1 {
+  background-color: black;
+}
+
+.section-2 {
+  color: black;
+	background-color: white;
+}
+
+.section-3 {
+  padding: 0;
+}
+
+.section-footer {
+  background-color: black;
+}
+
+a:link {
+  color: #17a2b8;
+}
+
+a:visited {
+  color: #17a2b8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #28a745;
+  text-decoration: none;
+}
+
+.nav-tabs {
+ border-bottom: none;
+ 
+}
+
+.nav-tabs .nav-link {
+  border-top: none;
+	border-left: none;
+	border-right: none;
+	border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+nav a:link {
+  color: black;
+}
+
+nav a:hover {
+  color: white;
+	border-bottom: 1px solid white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  	'header header header header header header'
+  	'menu main main main right right'
+  	'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #343a40;
+  padding: 10px;
+}
+
+.grid-container-1 {
+}
+
+.grid-container-2 {
+	grid-gap: 30px;
+}
+
+.grid-container-3 {
+	grid-template-areas:
+  	'menu header header header header header'
+  	'menu main main main main main'
+		'menu right right right right right'
+  	'menu footer footer footer footer footer';
+}
+
+.grid-container > div {
+  background-color: #fff;
+  text-align: center;
+  padding: 50px 0;
+  font-size: 30px;
+}
+
+.item1 { 
+  grid-area: header;
+}
+
+.item2 { 
+  grid-area: menu;
+}
+
+.item3 {
+  grid-area: main; 
+}
+
+.item4 {
+	grid-area: right;
+}
+
+.item5 {
+  grid-area: footer;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	
+}	
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+	.figure-1 {
+		float: right;
+	}	
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
